@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/R_Email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/custom_design"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:hint="   Email"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:id="@+id/R_Password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_design"
+        android:drawableLeft="@drawable/ic_action_pwd"
+        android:inputType="textPassword"
+        android:hint="  Password"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:id="@+id/R_ConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_design"
+        android:drawableLeft="@drawable/ic_action_pwd"
+        android:inputType="textPassword"
+        android:hint="   Confirm Password"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:id="@+id/SubmitBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_design"
+        android:text="Submit"
+        android:textColor="#ffff"/>
+
+</LinearLayout>

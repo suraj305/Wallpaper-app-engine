@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".ViewActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/fullImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:scaleType="fitXY"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floatingActionMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/setWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_setbg"
+            fab:fab_size="mini"
+            fab:fab_label="Set Wallpaper"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/shareWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share"
+            fab:fab_size="mini"
+            fab:fab_label="Share Wallpaper"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/downloadWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_download"
+            fab:fab_size="mini"
+            fab:fab_label="Download Wallpaper"/>
+
+
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+
+</RelativeLayout>

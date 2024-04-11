@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27397707654",
+    "firebase_url": "https://black-wallpapers-fb888.firebaseio.com",
+    "project_id": "black-wallpapers-fb888",
+    "storage_bucket": "black-wallpapers-fb888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27397707654:android:4921898172588d26377e07",
+        "android_client_info": {
+          "package_name": "com.sadpoetry.blackwallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27397707654-dah7mdbko0ps1s1ubqlskccpi8g1gfnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sadpoetry.blackwallpapers",
+            "certificate_hash": "90c3629f3af61d568dc85c142472a94248786d72"
+          }
+        },
+        {
+          "client_id": "27397707654-36vgtt88cs6vl5mjlghg7ps2p88651md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0sCA1gOFvS3g8jNJCdeMdGkrkKehEXKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27397707654-36vgtt88cs6vl5mjlghg7ps2p88651md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
